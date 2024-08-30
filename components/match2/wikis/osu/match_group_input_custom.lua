@@ -19,7 +19,7 @@ local Streams = require('Module:Links/Stream')
 local MatchGroupInput = Lua.import('Module:MatchGroup/Input/Util')
 
 local NP_STATUSES = {'skip', 'np', 'canceled', 'cancelled'}
-local ALLOWED_VETOES = {'decider', 'pick', 'ban', 'defaultban', 'protect'}
+local ALLOWED_VETOES = {'decider', 'pick', 'ban', 'defaultban', 'protect', 'strike'}
 local ALLOWED_STATUSES = {'W', 'FF', 'DQ', 'L', 'D'}
 local MAX_NUM_OPPONENTS = 2
 local MAX_NUM_MAPS = 20

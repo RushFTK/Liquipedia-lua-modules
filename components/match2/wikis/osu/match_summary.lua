@@ -43,6 +43,7 @@ local VETO_TYPE_TO_TEXT = {
 	decider = 'DECIDER',
 	defaultban = 'DEFAULT BAN',
 	protect = 'PROTECT',
+	strike = 'STRIKE',
 
 }
 local CustomMatchSummary = {}
